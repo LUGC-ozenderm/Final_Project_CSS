@@ -1,0 +1,87 @@
+main {
+    margin: 4vw 0 0 0;
+}
+
+form {
+    background-color: #4997D0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+    font-family: pText;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 0 0 3vw 0;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #fff;
+    color: #4997D0;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form textarea {
+    resize: none;
+}
+
+h1,
+.info h2 {
+    font-family: Subtitle;
+    color: #F4C518;
+    text-align: center;
+    padding: 0 0 5vw 0;
+}
+
+@media screen and (max-width: 800px) {
+
+    h1,
+    .info h2 {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (min-width: 801px) {
+
+    h1,
+    .info h2 {
+        font-size: 3vw;
+    }
+}
+
+.info p {
+    font-family: Ptext;
+    text-align: center;
+    padding: 0 9vw 5vw 9vw;
+}
+
+@media screen and (max-width: 1199px) {
+    .info p,
+    .Schedule p{
+        font-size: 3.5vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .info p,
+    .Schedule p{
+        font-size: 1.7vw;
+    }
+}
+
+.Schedule p{
+    font-family: Subtitle;
+    text-align: center;
+}
+
+.Schedule {
+    margin: 5vw 0;
+}

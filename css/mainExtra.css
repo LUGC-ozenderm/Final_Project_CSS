@@ -1,0 +1,17 @@
+p {
+    font-family: PText;
+    text-align: center;
+    padding: 0 17vw;
+}
+
+@media screen and (max-width: 1199px) {
+    p {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    p {
+        font-size: 1.5vw;
+    }
+}

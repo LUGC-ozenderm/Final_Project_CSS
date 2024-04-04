@@ -1,0 +1,62 @@
+p {
+    font-family: PText;
+    text-align: center;
+    padding: 0 17vw;
+}
+
+@media screen and (max-width: 1199px) {
+    p {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    p {
+        font-size: 1.5vw;
+    }
+}
+
+h2 {
+    font-family: Subtitle;
+    font-size: 3vw;
+    color: #F4C518;
+    text-align: center;
+    padding: 2vw 20vw;
+}
+
+@media screen and (max-width: 800px) {
+    h2 {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    h2 {
+        font-size: 3vw;
+    }
+}
+
+.about-text {
+    text-align: center;
+}
+
+.about-image {
+    margin: auto;
+    max-width: 50vw;
+}
+
+@media screen and (max-width: 800px) {
+    .about-image {
+        max-width: 50vw;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .about-image {
+        max-width: 40vw;
+    }
+}
+
+.about-image img {
+    max-width: 100%;
+}
