@@ -34,7 +34,7 @@ form textarea {
 }
 
 h1,
-.info h2 {
+h2 {
     font-family: Subtitle;
     color: #F4C518;
     text-align: center;
@@ -44,7 +44,7 @@ h1,
 @media screen and (max-width: 800px) {
 
     h1,
-    .info h2 {
+    h2 {
         font-size: 5vw;
     }
 }
@@ -52,7 +52,7 @@ h1,
 @media screen and (min-width: 801px) {
 
     h1,
-    .info h2 {
+    h2 {
         font-size: 3vw;
     }
 }
@@ -64,20 +64,22 @@ h1,
 }
 
 @media screen and (max-width: 1199px) {
+
     .info p,
-    .Schedule p{
+    .Schedule p {
         font-size: 3.5vw;
     }
 }
 
 @media screen and (min-width: 1200px) {
+
     .info p,
-    .Schedule p{
+    .Schedule p {
         font-size: 1.7vw;
     }
 }
 
-.Schedule p{
+.Schedule p {
     font-family: Subtitle;
     text-align: center;
 }
