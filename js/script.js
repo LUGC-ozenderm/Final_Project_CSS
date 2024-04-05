@@ -12,9 +12,7 @@ document.getElementById('menu-button').addEventListener('click', function() {
     } else {
         menu.style.right = '-100%';
     }
-});
 
-document.getElementById('menu-button').addEventListener('click', function() {
     this.classList.toggle('clicked');
     document.getElementById('slide-out-menu').classList.toggle('open');
 });
